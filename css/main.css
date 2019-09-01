@@ -36,6 +36,7 @@ body {
 }
 
 @media screen {
+
   .grid-container:before,
   .grid-container:after {
     content: ".";
@@ -73,6 +74,7 @@ body {
 }
 
 @media screen and (min-width: 1080px) {
+
   .grid-container:before,
   .grid-100:before,
   .grid-container:after,
@@ -130,6 +132,7 @@ body {
 }
 
 @media screen and (max-width: 680px) {
+
   .grid-container:before,
   .grid-container:after {
     content: ".";
@@ -163,6 +166,7 @@ body {
 }
 
 @media screen and (min-width: 680px) and (max-width: 1080px) {
+
   .grid-container:before,
   .grid-container:after {
     content: ".";
@@ -319,6 +323,33 @@ ul li {
   font-size: 1.6em;
   color: #8d9aa5;
   position: relative;
+}
+
+ul.rooms {
+  margin-bottom: 30px;
+}
+
+ul.rooms li {
+  font-size: 1em;
+  display: inline-block;
+  width: 10%;
+  padding: 3px 2px 2px;
+  border-radius: 2px;
+  margin: 0 3px 3px 3px;
+  color: white;
+  text-align: center;
+}
+
+ul.rooms li.empty {
+  background-color: #5fcf80;
+}
+
+ul.rooms li.full {
+  background-color: #ed5a5a;
+}
+
+ul.bulleted {
+  margin-bottom: 20px;
 }
 
 ul.bulleted li {
